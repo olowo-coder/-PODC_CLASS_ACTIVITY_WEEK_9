@@ -14,6 +14,7 @@ import java.util.Arrays;
 public class SolutionController {
 
     SolutionService solutionService;
+
     @Autowired
     public SolutionController(SolutionService solutionService) {
         this.solutionService = solutionService;
