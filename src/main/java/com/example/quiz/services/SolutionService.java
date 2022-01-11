@@ -1,5 +1,8 @@
 package com.example.quiz.services;
 
-public interface SolutionService {
+import com.example.quiz.model.Solution;
 
+public interface SolutionService {
+    //--prosper
+    Solution saveSolution(Solution solution);
 }

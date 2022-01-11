@@ -1,0 +1,6 @@
+-- Prosper
+CREATE TABLE IF NOT EXISTS SOLUTION (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(150) NOT NULL,
+    questionTitle VARCHAR(150) NOT NULL
+    );
